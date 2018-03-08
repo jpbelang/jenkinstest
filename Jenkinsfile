@@ -2,7 +2,7 @@ pipeline {
 
     stages {
 
-        stage {
+        stage "Build" {
 
             sh "echo hello world!"
         }
